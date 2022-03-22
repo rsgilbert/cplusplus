@@ -25,7 +25,7 @@ void workout()
 int main()
 {
     string m = *new string("Tight");
-    cout << m << endl;
+    cout << m.capacity() << endl;
     workout();
     Sleep s1;
     Sleep s2 { "Great victory" };
